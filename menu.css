@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .icon {
+
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  } */
+  
+  .menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+
+  }
+
+  .sub_menu{
+    list-style: none;
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    border: solid 1px;
+
+  }
+
+  li:hover .sub_menu{
+    display: block;
+  }
+
+  .menu li:hover{
+    background-color: red;
+  }
+
+  nav{
+    border: solid 1px;
+    width: 500px;
+    background-color: aqua;
+  }
+  
+
+
